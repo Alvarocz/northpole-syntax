@@ -1,7 +1,19 @@
-# Northpole Syntax theme
+<div align="center">
+	<h1>Northpole</h1>
+	<p>An original and dark Atom color scheme</p>
+	<img src="https://raw.githubusercontent.com/Alvarocz/northpole-syntax/master/assets/banner.png" alt="">
+</div>
 
-This is a nice and original dark theme.
+Python
+<img src="https://raw.githubusercontent.com/Alvarocz/northpole-syntax/master/assets/scrot-python.png">
 
+JavaScript
+<img src="https://raw.githubusercontent.com/Alvarocz/northpole-syntax/master/assets/scrot-js.png">
 
-Northpole syntax + Spacegray Atom dark theme
-![atom-northpole-screeshot](https://user-images.githubusercontent.com/11657631/28470619-dc2445cc-6dff-11e7-9e67-539d1879e474.png)
+HTML
+<img src="https://raw.githubusercontent.com/Alvarocz/northpole-syntax/master/assets/scrot-html.png">
+
+# Installation
+```sh
+$ apm install northpole-syntax
+```
