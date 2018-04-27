@@ -61,7 +61,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @dark-gray;
+  color: @gray;
 }
 
 .syntax--keyword {
@@ -76,7 +76,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--special-method {
-    color: @blue;
+    color: @orange;
   }
 
   &.syntax--other.syntax--unit {
@@ -89,7 +89,7 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @blue;
+  color: @syntax-text-color;
   font-weight: bold;
 
   &.syntax--character.syntax--escape {
@@ -97,7 +97,7 @@ atom-text-editor {
   }
 
   &.syntax--numeric {
-    color: darken(@blue, 10%);
+    color: darken(@syntax-text-color, 5%);
   }
 
   &.syntax--other.syntax--color {
@@ -110,7 +110,7 @@ atom-text-editor {
 }
 
 .syntax--variable {
-  color: @purple;
+  color: @syntax-text-color;
 
   &.syntax--interpolation {
     color: darken(@red, 10%);
@@ -145,8 +145,10 @@ atom-text-editor {
 
 .syntax--punctuation {
   &.syntax--definition {
+    color: @gray;
+
     &.syntax--comment {
-      color: @dark-gray;
+      color: @gray;
     }
     &.syntax--tag {
       color: darken(@blue, 20%);
@@ -178,7 +180,7 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: darken(@blue, 5%);
   }
 
 }
@@ -224,10 +226,11 @@ atom-text-editor {
   &.syntax--name.syntax--tag {
     color: @very-light-gray;
     text-decoration: none;
+    font-weight: bold;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @very-light-gray;
+    color: @purple;
 
     &.syntax--id {
       color: @red;
